@@ -14,7 +14,7 @@ $tax_amount = $subtotal * $tax_rate;
 $total = $subtotal + $tax_amount;
 
 // 結果の表示
-echo "商品名:". "ノートパソコン"."<br>";
+echo "商品名:". $product_name."<br>";
 echo "単価:". $price."円"."<br>";
 echo "数量:". $quantity."個"."<br>";
 echo "小計:". $subtotal."円"."<br>";
